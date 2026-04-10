@@ -11,13 +11,6 @@ The goal of this project is to provide a beginner-friendly introduction to build
 
 ---
 
-## 📁 Project Structure
-├── fastAPI.py # FastAPI CRUD example (in-memory storage)
-├── restAPI.py # Flask API with SQLite database
-├── README.md
-
----
-
 ## ⚡ Features
 
 ### FastAPI API
@@ -49,6 +42,7 @@ GET /destinations
 
 ### 1. Clone the repo
 git clone https://github.com/Toukennn/API_tutorials.git
+
 cd API_tutorials
 
 
@@ -58,6 +52,7 @@ python -m venv api_env
 
 ### 3. Activate it
 Windows (PowerShell):
+
 .\api_env\Scripts\Activate.ps1
 
 
@@ -77,6 +72,7 @@ uvicorn fastAPI:app --reload
 
 Open:
 - http://127.0.0.1:8000
+- 
 - Docs: http://127.0.0.1:8000/docs
 
 ---
